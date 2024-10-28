@@ -1,0 +1,50 @@
+.mainMenu{
+    @apply px-20 py-4 bg-[#F0A500]
+} 
+.menu_row{
+    @apply  flex justify-between items-center
+}
+.logo a{
+    @apply cursor-default
+}
+.logo img{
+   @apply w-[40px] h-[25px]
+}
+.logo span{
+    @apply relative inset-x-[-10px] font-semibold text-lg text-[#0F3460] tracking-widest
+}
+.menuItem ul{
+    @apply flex gap-5 items-center h-[53px] text-[#fefbcd] font-semibold text-xl
+}
+.menuItem ul li a{
+    @apply cursor-default w-[90px] h-[53px] flex justify-center items-center hover:bg-[#338B79] rounded-sm transition duration-300
+}
+.searchBar{
+    @apply flex items-center
+}
+.searchBar input{
+    @apply w-[240px] h-[30px] rounded-sm bg-[#FEFDED] border-none outline-none py-[18px] pl-3 pr-[37px] text-[14px] text-[#7743DB] placeholder:italic
+}
+.searchBar a{
+    @apply relative inset-x-[-29px]
+}
+.searchBar img{
+    @apply w-[22px] h-[18px]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

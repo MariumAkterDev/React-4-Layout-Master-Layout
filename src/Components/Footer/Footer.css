@@ -1,0 +1,72 @@
+footer{
+    @apply px-[60px] py-5 h-[200px] bg-[#338b79] flex justify-between items-center
+}
+/* =========== footer row 1 ============= */
+.footerlogo{
+@apply cursor-default
+}
+.footerimg img{
+   @apply w-[70px] h-[45px] ml-8 
+}
+.footericon{
+    @apply flex gap-3 mt-[79px] 
+}
+
+.footericon img{
+    @apply w-[20px] h-[20px] ml-0 hover:opacity-[.6] transition-all
+}
+/* =========== footer row 2 ============= */
+.footerRowTwo{
+    @apply flex flex-col gap-[27px]
+}
+.footerMenu{
+    @apply flex flex-col font-normal text-base text-[#C6EBC5]
+}
+.footerRowTwo h1{
+    @apply font-bold text-xl text-[#FEFDED]
+}
+.footerMenu a{
+    @apply hover:underline transition duration-700
+}
+/* =========== footer row 3 ============= */
+.footerRowThree{
+    @apply flex flex-col gap-3
+}
+.footerRowThree h1{
+    @apply font-bold text-xl text-[#FEFDED] 
+}
+.footerRowThree p{
+    @apply w-[356px] text-sm font-light text-[#FEFDED] 
+}
+.footerRowThree button{
+    @apply  px-6 py-1 bg-[#F0A500] rounded-[3px] text-[#FAF8F1] outline-none border-none font-bold hover:bg-[#f0a400be] transition-all active:scale-[0.98]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
